@@ -1,8 +1,5 @@
 
-#HTML5 Boot Camp
-
-##The future of Web Applications is here!
-###Are you ready for it?
+#Gaming Studio's Web UI Boot Camp
 
 ####Index
 
@@ -30,16 +27,23 @@
 
     * [Topic 0: HTML & CSS Basics](#topic-0-html--css-basics)
 
-    * [Topic 1: JavaScript, and DOM APIs](#topic-1-javascript-intro-and-jquery)
+    * [Topic 1: SASS](#topic-1-sass)
 
-    * [Topic 2: OOP and Inheritance in JavaScript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
+    * [Topic 2: JavaScript, and DOM APIs](#topic-2-javascript-intro-and-jquery)
 
-    * [Topic 3: MVC - AngularJS](#topic-3-mvc---angularjs)
+    * [Topic 3: OOP and Inheritance in JavaScript](#topic-3-design-patterns-and-oop-in-javascript-3-days)
 
-    * [Topic 4: HTML5 APIs](#topic-4-html5-apis)
+    * [Topic 4: MVC - AngularJS](#topic-4-mvc---angularjs)
 
-    * [Topic 5 (Optional): UI - ReactJS](#topic-5-optional-ui---reactjs)
+    * [Topic 5: HTML5 APIs](#topic-5-html5-apis)
 
+    * [Topic 6 (Optional): UI - ReactJS](#topic-6-optional-ui---reactjs)
+
+    * [Topic 7: Dependency Management](#topic-7-dependency-management)
+
+    * [Topic 8: Build Tools](#topic-8-build-tools)
+
+    * [Topic 9: Web Game Development](#topic-9-web-game-development)
 
 12. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
 
@@ -170,11 +174,21 @@ On the other hand, CSS allows to define the look and feel of the content. It's u
 
 JavaScript is a programming language that runs in all Web Browsers. Using JavaScript we can create full-fledge web applications.
 
-Now that you know which are the three pilars of a web application's UI, it's time to dive into them.
+Now that you know which are the three pillars of a web application's UI, it's time to dive into them.
 
 ####[Topic 0: HTML & CSS Basics](https://github.com/globant-ui/css-lab)
 
-####Topic 1: JavaScript, and DOM APIs####
+####Topic 1: SASS####
+
+#####Reading:#####
+
+1.
+
+#####Practice:#####
+
+→ [index](#index)
+
+####Topic 2: JavaScript, and DOM APIs####
 
 #####Reading:#####
 
@@ -242,8 +256,8 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 2: Design Patterns and OOP in JavaScript####
-In this Topic we will focus on learning how JavaScript approaches Object-Oriented programming. If you come from Java, or .NET you will find yourself a little bit lost at the beggining. ECMAScript6 provides a layer of syntactic sugar over the previous version(5.1) that is expected to simplify the language.
+####Topic 3: Design Patterns and OOP in JavaScript####
+In this Topic we will focus on learning how JavaScript approaches Object-Oriented programming. If you come from Java, or .NET you will find yourself a little bit lost at the beginning. ECMAScript6 provides a layer of syntactic sugar over the previous version(5.1) that is expected to simplify the language.
 
 #####Reading:#####
 
@@ -251,13 +265,13 @@ In this Topic we will focus on learning how JavaScript approaches Object-Oriente
 
 2. ECMAScript 6 New Features: [http://es6-features.org/](http://es6-features.org/). You can compare ECMAScript 5 and 6 code.
 
-3. Read the Chapter on JavaScript classes from [*Understanding ECMAScript6*](https://leanpub.com/understandinges6/read#leanpub-auto-classes) 
+3. Read the Chapter on JavaScript classes from [*Understanding ECMAScript6*](https://leanpub.com/understandinges6/read#leanpub-auto-classes)
 
-4. Read about [ES6 Modules](https://ponyfoo.com/articles/es6-modules-in-depth)  
+4. Read about [ES6 Modules](https://ponyfoo.com/articles/es6-modules-in-depth)
 
-5. Extra: Read about AMD, CommonJS, and ES6 Modules [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/) 
+5. Extra: Read about AMD, CommonJS, and ES6 Modules [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/)
 
-6. An overview on all the features ECMAScript provides [https://github.com/lukehoban/es6features](https://github.com/lukehoban/es6features) 
+6. An overview on all the features ECMAScript provides [https://github.com/lukehoban/es6features](https://github.com/lukehoban/es6features)
 
 #####Practice:#####
 
@@ -324,7 +338,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 3: MVC - AngularJS####
+####Topic 4: MVC - AngularJS####
 
 #####Reading:#####
 
@@ -365,7 +379,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 4: HTML5 APIs####
+####Topic 5: HTML5 APIs####
 
 #####Reading:#####
 
@@ -373,7 +387,7 @@ Commit your practice code.
 
 2. Now, take a deep dive into HTML5: [http://diveintohtml5.info/](http://diveintohtml5.info/) (optional)
 
-3. Understand the capabilities the Web has to offer right now [https://whatwebcando.today/](https://whatwebcando.today/) 
+3. Understand the capabilities the Web has to offer right now [https://whatwebcando.today/](https://whatwebcando.today/)
 
 #####Practice:#####
 
@@ -389,7 +403,7 @@ Commit your practice code.
 
 6. Using the Canvas API animate a rectangle's position on the screen. Make sure not to use setTimeout but requestTimeFrame to perform the animation.
 
-7. Create a web page with a SVG element to show a vector graphic. Make sure you understand when is better to use SVG instead of bitmaps, and viceversa.
+7. Create a web page with a SVG element to show a vector graphic. Make sure you understand when is better to use SVG instead of bitmaps, and vice-versa.
 
 #####Key Points:#####
 
@@ -401,7 +415,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 5 (Optional): UI - ReactJS####
+####Topic 6 (Optional): UI - ReactJS####
 
 #####Reading:#####
 
@@ -457,6 +471,48 @@ Test your code in a mobile device or in Android emulator.
 Commit your practice code.
 
 → [index](#index)
+
+####Topic 7: Dependency management####
+
+#####Reading:#####
+
+1. [What is npm?](https://docs.npmjs.com/getting-started/what-is-npm). [Here](http://browsenpm.org/package.json) is a guide to the package.json file.
+
+2. [Bower](https://bower.io/). [Bower Tutorial](https://www.codementor.io/bower/tutorial/beginner-tutorial-getting-started-bower-package-manager)
+
+#####Practice:#####
+
+1. Install node, npm and bower using npm.
+
+2. Create a package.json for your project will all the developer dependencies needed.
+
+3. Create a bower.json file with all the dependencies of your project, eg: AngularJS or ReactJS.
+
+4. Modify your project to use the dependencies from the bower_components dir.
+
+5. Install your project in another directory, using only the source code and the dependency managers.
+
+→ [index](#index)
+
+####Topic 8: Build Tools####
+
+#####Reading:#####
+
+1. [Grunt task runner](http://gruntjs.com/) is a tool that let you automatize the build of your project. Read these tutorials about it, [introducing grunt](https://bocoup.com/weblog/introducing-grunt) and [Meet grunt](http://code.tutsplus.com/tutorials/meet-grunt-the-build-tool-for-javascript--net-24856)
+
+2. [Gulp](http://gulpjs.com/) is a streaming build system. Read this [tutorial](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js) to start with it
+
+3. Grunt vs Gulp, these are [some](http://jaysoo.ca/2014/01/27/gruntjs-vs-gulpjs/) [articles](https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4#.wks8sj52e) [comparing](http://www.hongkiat.com/blog/gulp-vs-grunt/) [the two](http://www.oomphinc.com/notes/2014/03/gulp-vs-grunt-node-js-automation-tools-showdown/) read them to know witch one is right for your project
+
+#####Practice:#####
+
+1. Install node, npm and bower using npm.
+
+→ [index](#index)
+
+####Topic 9: Web Game Development####
+
+#####Reading:#####
 
 ###Your First Project Starts Now!###
 
