@@ -1,4 +1,3 @@
-
 #Gaming Studio's Web UI Boot Camp
 
 ####Index
@@ -15,15 +14,13 @@
 
 6. [Handling advanced Developers](#handling-advanced-developers)
 
-7. [Materials](#materials)
+7. [Environment Setup](#enviroment-setup)
 
 8. [General Guidelines](#general-guidelines)
 
 9. [Proposed Test Applications](#proposed-test-applications)
 
-10. [Environment Setup]
-
-11. [Learning Days](#learning-days)
+10. [Learning Days](#learning-days)
 
     * [Topic 0: HTML & CSS Basics](#topic-0-html--css-basics)
 
@@ -45,7 +42,7 @@
 
     * [Topic 9: Web Game Development](#topic-9-web-game-development)
 
-12. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
+11. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
 
 ###Objective
 
@@ -60,7 +57,7 @@ The training will start at a low level, and does not require in depth knowledge 
 → [index](#index)
 
 ###Duration
-
+TODO:revisar esto
 Five weeks total.
 
 Three weeks for guided learning and two weeks for app development.
@@ -69,7 +66,7 @@ Three weeks for guided learning and two weeks for app development.
 
 ###Technical Assistance
 
-You can contact other bootcamp participants or any available tutor if you need technical assistance. We will create one chat for boot camp members only, and another one for boot camp members and tutors when boot camp starts.
+You can contact other boot camp participants or any available tutor if you need technical assistance. This will be addressed at the start of the boot camp.
 
 ###Performance Measurement
 
@@ -86,29 +83,31 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 → [index](#index)
 
-###Tools
+###Environment Setup
 
 1. At least, three different browsers installed on the developer machine. Example, Chrome, Firefox, and the Android browser using Android's emulator.
 
-2. The IDE to use is [SublimeText](http://www.sublimetext.com/).
+2. The recommended IDE to use is [SublimeText](http://www.sublimetext.com/).
 
 3. Skype Account + headset (audio calls)
 
-4. Create your own[ GitHub](https://github.com/) account. Follow this[ guideline](https://help.github.com/articles/set-up-git) to setup your account.
+4. Create your own [GitHub](https://github.com/) account. Follow this [guideline](https://help.github.com/articles/set-up-git) to setup your account.
 
-5. Install your own NodeJS server.
+5. If you are on a windows machine install [PowerShell](https://msdn.microsoft.com/en-us/powershell/scripting/setup/installing-windows-powershell) or [Cygwin](https://cygwin.com/install.html)
+
+6. Install your own NodeJS server.
   * Download [NodeJS](http://nodejs.org/)
   * Install `http-server` globally, by running `npm install -g http-server`
-  * To start the server, from a command line interface, run `http-server` in the directory where you will clone the startup repo
+  * To start the server, from a command line interface, run `http-server` in the directory where you will clone the startup repository
   * Open your web browser and point to localhost:PORT (the `http-server` should have outputted the number of PORT you should use)
 
-6. Fork this repo [https://github.com/globant-ui/startup](https://github.com/globant-ui/startup) to use as a base to host the project code.
+7. Fork this repo [https://github.com/globant-ui/startup](https://github.com/globant-ui/startup) to use as a base to host the project code.
 
 → [index](#index)
 
-
-
 ###General Guidelines
+
+TODO:REVISAR
 
 The boot camp is organized in the following way:
 
@@ -124,10 +123,10 @@ The boot camp is organized in the following way:
 
 6. Two boot camp chats will be created for feedback and technical assistance:
 
-    1. Bootcamp HTML - ALL
-Every person participating in the bootcamp is present here (students, tutors and PMs). Here is the place to ask for technical assistance!
+    1. Boot camp HTML - ALL
+Every person participating in the boot camp is present here (students, tutors and PMs). Here is the place to ask for technical assistance!
 
-    2. Bootcamp HTML - Assistants
+    2. Boot camp HTML - Assistants
 Here you will reach just your boot camp fellows for asking question sharing knowledge.
 
 7. Team play is encouraged but the work will be evaluated per person.
@@ -176,7 +175,7 @@ JavaScript is a programming language that runs in all Web Browsers. Using JavaSc
 
 Now that you know which are the three pillars of a web application's UI, it's time to dive into them.
 
-####[Topic 0: HTML & CSS Basics](https://github.com/globant-ui/css-lab)
+####[Topic 0: HTML & CSS Basics](https://github.com/globant-ui/css-lab)####
 
 ####Topic 1: SASS####
 
@@ -352,6 +351,16 @@ Commit your practice code.
 
 5. Learn how to create unit tests for your angular.js applications [https://docs.angularjs.org/guide/unit-testing](https://docs.angularjs.org/guide/unit-testing)
 
+6.To learn Angular best practices such as how to write, organize, and structure your code so that it’s maintainable and testable read the [Angular Style Guide by John Papa](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
+
+#####Extra reading:#####
+
+1. [Shaping up with Angular.js](https://www.codeschool.com/courses/shaping-up-with-angular-js)
+
+2. [ANGULAR BASICS](http://www.angularjsbook.com/angular-basics/chapters/introduction/)
+
+3. [PhoneCat Tutorial App](https://docs.angularjs.org/tutorial)
+
 #####Practice:#####
 
 1. Create a movie listing with your favorite movies. Data shall be persisted in localhost.
@@ -498,7 +507,7 @@ Commit your practice code.
 
 #####Reading:#####
 
-1. [Grunt task runner](http://gruntjs.com/) is a tool that let you automatize the build of your project. Read these tutorials about it, [introducing grunt](https://bocoup.com/weblog/introducing-grunt) and [Meet grunt](http://code.tutsplus.com/tutorials/meet-grunt-the-build-tool-for-javascript--net-24856)
+1. [Grunt task runner](http://gruntjs.com/) is a tool that let you automatize the build of your project. Read these tutorials about it, [introducing grunt](https://bocoup.com/weblog/__introducing__-grunt) and [Meet grunt](http://code.tutsplus.com/tutorials/meet-grunt-the-build-tool-for-javascript--net-24856)
 
 2. [Gulp](http://gulpjs.com/) is a streaming build system. Read this [tutorial](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js) to start with it
 
@@ -514,6 +523,8 @@ Commit your practice code.
 
 #####Reading:#####
 
+1. [Introduction to web game development](https://developer.mozilla.org/en-US/docs/Games/Introduction)
+2. [Game loop in JS](https://developer.mozilla.org/en-US/docs/Games/Anatomy)
 ###Your First Project Starts Now!###
 
 ####It’s time for the real thing.####
