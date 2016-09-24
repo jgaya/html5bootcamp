@@ -14,7 +14,7 @@
 
 6. [Handling advanced Developers](#handling-advanced-developers)
 
-7. [Environment Setup](#enviroment-setup)
+7. [Environment Setup](#environment-setup)
 
 8. [General Guidelines](#general-guidelines)
 
@@ -102,6 +102,13 @@ Developers that move faster than average can go ahead and complete as much exerc
   * Open your web browser and point to localhost:PORT (the `http-server` should have outputted the number of PORT you should use)
 
 7. Fork this repo [https://github.com/globant-ui/startup](https://github.com/globant-ui/startup) to use as a base to host the project code.
+
+8. Plugins for debbuging and development
+   * [Emmet Re:view](https://chrome.google.com/webstore/detail/emmet-review/epejoicbhllgiimigokgjdoijnpaphdp)
+   * [AnguarJs Batarang](https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk)
+   * [CSS Gradient Inspector](https://chrome.google.com/webstore/detail/css-gradient-inspector/blklpjonlhpakchaahdnkcjkfmccmdik)
+   * [Tamper](https://chrome.google.com/webstore/detail/tamper-chrome-extension/hifhgpdkfodlpnlmlnmhchnkepplebkb)
+   * [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
 → [index](#index)
 
